@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-0 py-8 px-8 max-w-xl mx-auto dark:bg-slate-800 rounded-xl shadow-xl space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+  <div class="mt-0 py-8 px-8 max-w-xl mx-auto bg-slate-800 rounded-xl shadow-xl space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
     <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="../assets/image.jpg">
     <div class="text-center space-y-2 sm:text-left">
       <div class="space-y-0.5">
@@ -27,7 +27,7 @@
             <div class="h-7 inline-flex align-middle">
               <img @click="showMail = !showMail" class="rounded-md cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="../assets/mail.svg">
               <transition name="slide-fade">
-                <input v-if="showMail" type="text" class="ml-3 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value="chanhien050@gmail.com" disabled>
+                <input v-if="showMail" type="text" class="ml-3 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed bg-gray-700 border-gray-600 placeholder-gray-400 text-gray-400 focus:ring-blue-500 focus:border-blue-500" value="chanhien050@gmail.com" disabled>
               </transition>
             </div>
           </div>
